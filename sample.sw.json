@@ -37,16 +37,14 @@
       "type": "operation",
       "actions": [
         {
-              "name": "myAction", "functionRef":{
-            "refName": {
-              "refName": "sendQueryNew",
-              "arguments": {
-                "another": "",
-                "query": ""
-              }
+          "name": "myAction",
+          "functionRef":{
+            "refName": "sendQueryNew",
+            "arguments": {
+              "another": "",
+              "query": ""
             }
-          
-          },
+          }
         },
         {
           "name": "maxAction",
